@@ -1,0 +1,171 @@
+/* aboute */
+.aboute {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+}
+.box-aboute {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    border: 5px solid #39FF14;
+    box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14, 0 0 30px #39FF14;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+.aboute-left {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.box-btn-sosmed {
+    display: flex;
+    gap: 10px;
+}
+.aboute-right {
+    display: flex;
+    flex-grow: 1;
+}
+.heading {
+    background-image: radial-gradient(circle, #82c91e 5%, #3bc9db 95%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    font-family: "Poppins", serif;
+}
+.deskripsi-aboute {
+    color: white;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.img-no-bg {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 5px solid #39FF14;
+    box-shadow: 0 0 15px #39FF14, 0 0 25px #39FF14, 0 0 35px #39FF14;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* sosmed */
+.Btn-ig {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .4s;
+    cursor: pointer;
+    position: relative;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    overflow: hidden;
+}
+.svgIcon {
+    transition-duration: .3s;
+}
+.svgIcon path {
+    fill: white;
+}
+.text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    font-weight: 600;
+    opacity: 0;
+    transition-duration: .4s;
+}
+.Btn-ig:hover {
+    width: 110px;
+    transition-duration: .4s;
+    border-radius: 30px;
+}
+.Btn-ig:hover .text {
+    opacity: 1;
+    transition-duration: .4s;
+}
+.Btn-ig:hover .svgIcon {
+    opacity: 0;
+    transition-duration: .3s;
+}
+.Btn-linkedin {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .4s;
+    cursor: pointer;
+    position: relative;
+    background: #0077b5;
+    background: -moz-linear-gradient(45deg, #0077b5 0%, #005582 100%);
+    background: -webkit-linear-gradient(45deg, #0077b5 0%, #005582 100%);
+    background: linear-gradient(45deg, #0077b5 0%, #005582 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    overflow: hidden;
+}
+.Btn-linkedin:hover {
+    width: 110px;
+    transition-duration: .4s;
+    border-radius: 30px;
+}
+.Btn-linkedin:hover .text {
+    opacity: 1;
+    transition-duration: .4s;
+}
+.Btn-linkedin:hover .svgIcon {
+    opacity: 0;
+    transition-duration: .3s;
+}
+.Btn-wa {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .4s;
+    cursor: pointer;
+    position: relative;
+    background: #25D366;
+    background: -moz-linear-gradient(45deg, #25D366 0%, #128C7E 100%);
+    background: -webkit-linear-gradient(45deg, #25D366 0%, #128C7E 100%);
+    background: linear-gradient(45deg, #25D366 0%, #128C7E 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    overflow: hidden;
+}
+.Btn-wa:hover {
+    width: 110px;
+    transition-duration: .4s;
+    border-radius: 30px;
+}
+.Btn-wa:hover .text {
+    opacity: 1;
+    transition-duration: .4s;
+}
+.Btn-wa:hover .svgIcon {
+    opacity: 0;
+    transition-duration: .3s;
+}

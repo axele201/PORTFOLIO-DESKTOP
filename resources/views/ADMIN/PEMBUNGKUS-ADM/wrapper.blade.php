@@ -1,0 +1,5 @@
+@include('ADMIN.ADM-LAY.headAdm')
+@include('ADMIN.ADM-LAY.headerAdm')
+@include('ADMIN.ADM-LAY.sidebarAdm')
+@include('ADMIN.ADM-LAY.contentAdm')
+@include('ADMIN.ADM-LAY.footerAdm')
