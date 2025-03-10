@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Mail extends Model
 {
-    use HasFactory;
-    protected $fillable = [
-        'user',
-        'subject',
-        'content',
-    ];
+    // use HasFactory;
+    // protected $fillable = [
+    //     'user',
+    //     'subject',
+    //     'content',
+    // ];
 }

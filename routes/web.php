@@ -13,5 +13,5 @@ Route::get('/dashboard/NewProfile',[PageController::class, 'NewProfile'])->name(
 Route::get('/dashboard/skills',[PageController::class, 'skills'])->name('skills');
 Route::get('/dashboard/skills/newSkills',[PageController::class, 'addNewSkills'])->name('createSkills');
 Route::get('/dashboard/contact',[PageController::class, 'contact'])->name('contact');
-Route::post('/store', [ProfileController::class, 'store'])->name('store');
-Route::post('/post', [MailController::class, 'Forums'])->name('Forums');
+// Route::post('/store', [ProfileController::class, 'store'])->name('store');
+// Route::post('/post', [MailController::class, 'Forums'])->name('Forums');

@@ -12,13 +12,14 @@ class PageController extends Controller
 {
     public function index()
     {
-        $profiles = Profile::first();
-        $forums = Mail::all();
-        $datas = [
-            'profiles' => $profiles,
-            'forums' => $forums,
-        ];
-        return view('index', $datas);
+        // $profiles = Profile::first();
+        // $forums = Mail::all();
+        // $datas = [
+        //     'profiles' => $profiles,
+        //     'forums' => $forums,
+        // ];
+        // return view('index', $datas);
+        return view('index');
     }
     public function admin()
     {
@@ -76,5 +77,5 @@ class PageController extends Controller
     {
         return view('POST.contact');
     }
-    
+
 }

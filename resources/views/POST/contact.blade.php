@@ -4,7 +4,7 @@
   @include('LAYOUT.head')
 </head>
 <body>
-  
+
 <!-- Main content -->
 <section class="content">
   <div class="container-fluid">
@@ -14,7 +14,7 @@
         <!-- /.card -->
       </div>
       <!-- /.col -->
-      <div class="col-md-9">
+      {{-- <div class="col-md-9">
         <div class="card card-primary card-outline">
           <div class="card-header">
             <h3 class="card-title">New Message</h3>
@@ -22,7 +22,7 @@
           <!-- /.card-header -->
           <div class="card-body">
             <!-- Start of Form -->
-            <form action="{{ route('Forums') }}" method="POST">
+            <form action="" method="POST">
               @csrf <!-- CSRF Token for security -->
               <div class="form-group">
                 <input type="text" name="user" class="form-control" placeholder="From:" value="{{ old('user') }}">
@@ -34,7 +34,7 @@
                 <textarea id="compose-textarea" name="content" class="form-control" style="height: 300px">{{ old('content') }}</textarea>
               </div>
           </div>
-  
+
           <!-- /.card-body -->
           <div class="card-footer">
             <div class="float-right">
@@ -48,7 +48,7 @@
           <!-- End of Form -->
         </div>
         <!-- /.card -->
-      </div>
+      </div> --}}
       <!-- /.col -->
     </div>
     <!-- /.row -->

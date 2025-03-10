@@ -36,29 +36,29 @@
                             <div class="card-body pt-0">
                                 <div class="row">
                                     <div class="col-7">
-                                        <h2 class="lead"><b>{{$profiles->nama}}</b></h2>
+                                        <h2 class="lead"><b>Dimas Ismawan Abdullah</b></h2>
                                         <p class="text-muted text-sm">
                                             <b>About: </b> Web Designer / UX / Graphic Artist / Coffee Lover
                                         </p>
                                         <ul class="ml-4 mb-0 fa-ul text-muted">
                                             <li class="small">
                                                 <span class="fa-li"><i class="fas fa-lg fa-building"></i></span>
-                                                Address: {{$profiles->alamat}}
+                                                Address: "Kp Rawa, Pondok Pucung, Pondok Aren, Tangerang Selatan"
                                             </li>
                                             <li class="small">
                                                 <span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>
-                                                Phone: {{$profiles->whatsapp}}
+                                                Phone: "085731660813"
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-5 text-center">
-                                        <img src="{{ asset('storage/' . $profiles->file_path) }}" alt="user-avatar" class="img-circle img-fluid">
+                                        <img src="{{ asset("IMG/dev-put.jpg") }}" alt="user-avatar" class="img-circle img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="card-footer">
                                 <div class="text-right">
-                                    <a href="https://wa.me/{{$profiles->whatsapp}}" class="btn btn-sm bg-teal">
+                                    <a href="https://wa.me/085731660813" class="btn btn-sm bg-teal">
                                         <i class="fas fa-comments"></i>
                                     </a>
                                     <a href="{{route('index')}}" class="btn btn-sm btn-primary">
