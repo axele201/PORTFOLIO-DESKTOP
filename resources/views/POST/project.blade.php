@@ -95,7 +95,7 @@
                   <tr>
                   <td><a href="https://github.com/axele201/LOGIN">4</a></td>
                   <td>LOGIN</td>
-                  <td><span class="badge badge-warning">Pending</span></td>
+                  <td><span class="badge badge-success">Complete</span></td>
                   <td>
                       <div class="sparkbar" data-color="#f56954" data-height="20">2 Maret 2025</div>
                   </td>
