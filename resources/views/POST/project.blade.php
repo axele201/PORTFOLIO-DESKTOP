@@ -103,7 +103,7 @@
                   <tr>
                   <td><a href="https://github.com/axele201/RAMADAN">5</a></td>
                   <td>RAMADAN TIME</td>
-                  <td><span class="badge badge-warning">Pending</span></td>
+                  <td><span class="badge badge-success">Complete</span></td>
                   <td>
                       <div class="sparkbar" data-color="#f56954" data-height="20">3 Maret 2025</div>
                   </td>
@@ -111,9 +111,17 @@
                   <tr>
                   <td><a href="https://github.com/axele201/PORTFOLIO">6</a></td>
                   <td>PORTFOLIO</td>
-                  <td><span class="badge badge-warning">Pending</span></td>
+                  <td><span class="badge badge-success">Complete</span></td>
                   <td>
                       <div class="sparkbar" data-color="#f56954" data-height="20">4 Maret 2025</div>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><a href="https://informatika-sms-4-main-xmxesp.laravel.cloud/">7</a></td>
+                  <td>SCHEDULE KULIAH</td>
+                  <td><span class="badge badge-success">Complete</span></td>
+                  <td>
+                      <div class="sparkbar" data-color="#f56954" data-height="20">18 Maret 2025</div>
                   </td>
                   </tr>
               </tbody>
